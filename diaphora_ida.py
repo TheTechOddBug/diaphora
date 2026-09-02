@@ -3864,22 +3864,26 @@ class CHtmlDiff:
   background-color: """
     + config.DIFF_COLOR_ADDED
     + """;
+  color: #000000;
   }
   .diff_chg {
   background-color: """
     + config.DIFF_COLOR_CHANGED
     + """;
+  color: #000000;
   }
   .diff_sub {
   background-color: """
     + config.DIFF_COLOR_SUBTRACTED
     + """;
+  color: #000000;
   }
   .diff_lineno {
   text-align: right;
   background-color: """
     + config.DIFF_COLOR_LINE_NO
     + """;
+  color: #888888;
   }
   """
   )
